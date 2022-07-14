@@ -1,21 +1,9 @@
 update_always:
-  - server_info.py
-  - validate_server.py
-  - notify_sa.py
-  - tmp-purge
-  - auto_start.sh
-  - sa_cron_weekly.sh
-  - linux_patch.py
-  - dba_shutdown.sh
+  - script_1.py
   - update_scripts.py
 
 update_if_present:
-  - backup_proxy_config.py
-  - dba_auto_start.sh
-  - docker_sidecar.py
-  - hatop.py
-  - schedule_linux_patches.py
-  - vmware_snapshot.py
+  - script_2.py
 
 remove:
-  - patch_snmp
+  - script_3.py
